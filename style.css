@@ -13,16 +13,25 @@ button {
     background-color: #ffffff;
     border: none;
     color: #06467e;
-    padding: 10px 20px;
+    padding: 10 px 20 px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 16 px;
+    margin: 4 px 2 px;
     cursor: pointer;
 }
 
+.stopwatch-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 #stopwatch {
-    font-size: 24px;
-    color: #ece8e8;
+    font-size: larger;
+    margin-bottom: 30 px;
+    color: rgb (246, 241, 241);
+    border: #010509;
 }
